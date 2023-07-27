@@ -5,12 +5,28 @@
   @return map-get($font-weights, $weight-name);
 }
 
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+// dark or light theme
+@mixin theme($light-theme: true) {
+  @if ($light-theme) {
+    background-color: lighten($primary-color, 50%);
+    color: darken($text-color, 100%);
+  }
+}
+
 body {
   background-color: $primary-color;
   color: $text-color;
 }
 
 .main {
+  @include flexCenter(column);
   width: 80%;
   margin: 0 auto;
   #{&}__paragraph {
@@ -20,4 +36,8 @@ body {
       color: pink;
     }
   }
+}
+
+.light {
+  @include theme($light-theme: true);
 }
