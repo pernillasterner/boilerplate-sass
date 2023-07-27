@@ -24,7 +24,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80%;
+  width: 40%;
   margin: 0 auto;
 }
 .main .main__paragraph1, .main .main__paragraph2 {
