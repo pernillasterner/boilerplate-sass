@@ -1,5 +1,15 @@
 body {
   background-color: #272727;
-  font-weight: 700;
   color: #fff;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+.main .main__paragraph {
+  font-weight: 700;
+}
+.main .main__paragraph:hover {
+  color: pink;
 }/*# sourceMappingURL=style.css.map */
