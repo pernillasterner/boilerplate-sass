@@ -11,15 +11,19 @@ The project is organized as follows:
 ```
 project-root/
 │
-├── dist/
-│   ├── css/
-│   │   └── style.css
-│   └── index.html
+├── app/
+│   ├── js/
+│   └── scss/
+│       ├── style.scss
+│       ├── _resets.scss
+│       └── _variables.scss
 │
-└── sass/
-    ├── style.scss
-    ├── resets.scss
-    └── variables.scss
+├── dist/
+│   └── css/
+│       ├── style.css
+│       └── style.map
+│
+└── index.html
 ```
 
 ## Getting Started
