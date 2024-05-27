@@ -20,12 +20,6 @@ project-root/
 │ ├── resets.scss
 │ └── variables.scss
 
-- **dist/css/style.css**: Compiled CSS file.
-- **dist/index.html**: HTML file to demonstrate the styled output.
-- **sass/style.scss**: Main Sass file that imports other Sass files.
-- **sass/resets.scss**: Contains reset styles to ensure consistent styling across browsers.
-- **sass/variables.scss**: Contains Sass variables for colors, fonts, etc.
-
 ## Getting Started
 
 ### Prerequisites
@@ -40,8 +34,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/sass-project.git
-   cd sass-project
+   git clone https://github.com/pernillasterner/theSociety-Sass
+   cd theSociety-Sass
 
    ```
 
@@ -50,6 +44,3 @@ Make sure you have the following installed:
 
 3. Run Sass
    sass sass/style.scss dist/css/style.css
-
-See the Sass website for more ways to install Sass.
-https://sass-lang.com/install/
