@@ -44,7 +44,11 @@ Make sure you have the following installed:
    ```
 
 2. Install Sass
+    ```
    npm install -g sass
+   ```
 
-3. Run Sass
-   sass sass/style.scss dist/css/style.css
+4. Run Sass
+   ```
+   sass scss/style.scss dist/css/style.css
+   ```
