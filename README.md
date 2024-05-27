@@ -8,6 +8,8 @@ This project demonstrates how to set up a basic Sass structure. It includes a si
 
 The project is organized as follows:
 
+
+```
 project-root/
 │
 ├── dist/
@@ -19,6 +21,8 @@ project-root/
     ├── style.scss
     ├── resets.scss
     └── variables.scss
+```
+
 
 ## Getting Started
 
