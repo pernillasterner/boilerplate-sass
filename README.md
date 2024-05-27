@@ -11,14 +11,14 @@ The project is organized as follows:
 project-root/
 │
 ├── dist/
-│ ├── css/
-│ │ └── style.css
-│ └── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── index.html
 │
-├── sass/
-│ ├── style.scss
-│ ├── resets.scss
-│ └── variables.scss
+└── sass/
+    ├── style.scss
+    ├── resets.scss
+    └── variables.scss
 
 ## Getting Started
 
