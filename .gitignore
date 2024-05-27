@@ -1,0 +1,12 @@
+# Ignore compiled CSS files
+/dist/css/*.css
+/dist/css/*.css.map
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore Sass cache files
+/.sass-cache/
+
+# Ignore compiled JavaScript files
+/dist/js/*.js
