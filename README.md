@@ -14,9 +14,10 @@ project-root/
 ├── app/
 │   ├── js/
 │   └── scss/
-│       ├── style.scss
-│       ├── _resets.scss
-│       └── _variables.scss
+│       ├── globals/
+│       │   ├── _boilerplate.scss
+│       │   ├── _typography.scss
+│       └── style.scss
 │
 ├── dist/
 │   └── css/
