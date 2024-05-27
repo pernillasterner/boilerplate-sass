@@ -8,7 +8,6 @@ This project demonstrates how to set up a basic Sass structure. It includes a si
 
 The project is organized as follows:
 
-
 ```
 project-root/
 │
@@ -22,7 +21,6 @@ project-root/
     ├── resets.scss
     └── variables.scss
 ```
-
 
 ## Getting Started
 
@@ -44,11 +42,12 @@ Make sure you have the following installed:
    ```
 
 2. Install Sass
-    ```
+
+   ```
    npm install -g sass
    ```
 
-4. Run Sass
+3. Run Sass
    ```
-   sass scss/style.scss dist/css/style.css
+   sass --watch scss/style.scss dist/css/style.css
    ```
