@@ -10,3 +10,6 @@
 
 # Ignore compiled JavaScript files
 /dist/js/*.js
+
+# Ignore note files
+note.md
