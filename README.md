@@ -53,5 +53,5 @@ Make sure you have the following installed:
 
 3. Run Sass
    ```
-   sass --watch scss/style.scss dist/css/style.css
+   sass --watch app/scss/style.scss dist/css/style.css
    ```
