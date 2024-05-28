@@ -17,6 +17,14 @@ project-root/
 │       ├── globals/
 │       │   ├── _boilerplate.scss
 │       │   ├── _typography.scss
+│       │   ├── _colors.scss
+│       │   ├── _index.scss
+|       ├── layout/
+│       │   ├── _grid.scss
+│       │   ├── _index.scss
+|       ├── util/
+│       │   ├── _fonts.scss
+│       │   ├── _index.scss
 │       └── style.scss
 │
 ├── dist/
