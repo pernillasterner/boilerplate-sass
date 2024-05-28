@@ -23,6 +23,7 @@ project-root/
 │       │   ├── _grid.scss
 │       │   ├── _index.scss
 |       ├── util/
+|       |   ├── _breakpoints.scss
 │       │   ├── _fonts.scss
 │       │   ├── _index.scss
 │       └── style.scss
