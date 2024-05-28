@@ -5,10 +5,13 @@
   grid-template-columns: 1fr; // in the template grid we want 1 col. fr unit
   grid-template-rows: auto auto; // hight is adjusting to its content
   gap: 40px;
+  //   max-width: 1000px;
+  width: min(100% - 40px, 1000px);
+  margin-inline: auto; // new property
 
   // media query for 900px and up
   @media (min-width: 900px) {
-    grid-template-columns: 2fr 1fr; // first col will be 2 times as the second col
+    grid-template-columns: 2fr 1fr; // first col will be 2 times wide as the second col
     grid-template-rows: auto;
   }
 
