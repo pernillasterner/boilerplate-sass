@@ -1,14 +1,19 @@
 @use "../util" as u;
 
+// placeholder
+%widget {
+  padding: u.rem(16);
+}
+
 // mobile first
 .grid {
   display: grid;
   // grid template for 2 columns and 1 row
   grid-template-columns: 1fr; // in the template grid we want 1 col. fr unit
   grid-template-rows: auto auto; // hight is adjusting to its content
-  gap: 40px;
+  gap: u.rem(40);
   // HIGHLIGHT - add 20px padding in mobile.
-  width: min(100% - 40px, 1000px);
+  width: min(100% - u.rem(40), u.rem(1000));
   margin-inline: auto; // new property
 
   // HIGHLIGHT
@@ -20,7 +25,7 @@
 
   &__main,
   &__sidebar {
-    padding: 40px;
+    padding: u.rem(40);
   }
 
   &__main {
@@ -36,14 +41,26 @@
   }
 
   &__sidebar {
-    background-color: hsl(300, 100%, 50%);
-
     @include u.breakpoint-down(medium) {
       text-align: center;
     }
 
     @include u.breakpoint-down(small) {
       text-align: right;
+    }
+  }
+
+  // HIGHLIGHT -> extend. interpolation
+  &__widget {
+    // modifier
+    &--magenta {
+      @extend %widget;
+      background-color: hsl(300, 100%, 50%);
+    }
+
+    &--green {
+      @extend %widget;
+      background-color: hsl(120, 100%, 19%);
     }
   }
 }
