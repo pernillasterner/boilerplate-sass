@@ -54,8 +54,8 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/pernillasterner/theSociety-Sass
-   cd theSociety-Sass
+   git clone https://github.com/pernillasterner/boilerplate-sass
+   cd boilerplate-sass
 
    ```
 
