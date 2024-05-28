@@ -1,12 +1,15 @@
-# Setting up a Sass Project
+# Sass Boilerplate
 
-## About the Project
+## 📖 About the Boilerplate
 
-This project demonstrates how to set up a basic Sass structure. It includes a simple HTML file and organized Sass files to streamline CSS development. The primary goal is to showcase a well-structured workflow for managing styles using Sass and grid layout.
+My goal with this boilerplate is to have everything ready to go when starting a new project, with a structure that is easy to use and enhance.
 
-## File Structure
+I've included mixins to handle breakpoints, variables for colors, and functions for media queries to simplify the process of creating responsive and easy-to-maintain styles.
 
-The project is organized as follows:
+
+## 🗂 File Structure
+
+I've organized the files into three categories: globals, layout, and util.
 
 ```
 project-root/
@@ -37,16 +40,16 @@ project-root/
 └── index.html
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [Sass](https://sass-lang.com/)
 
-### Installation
+### 📦 Installation
 
 1. Clone the repository:
 
@@ -66,3 +69,7 @@ Make sure you have the following installed:
    ```
    sass --watch app/scss/style.scss dist/css/style.css
    ```
+
+### 🌐 Usage
+
+After setting up the project, you can start editing the Sass files under the app/scss/ directory. The changes will be automatically compiled into the dist/css/style.css file.
