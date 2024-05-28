@@ -1,4 +1,4 @@
-// Three breakpoints. Mobil, tablet and desktop
+// Three breakpoints for mobile, tablet and desktop
 // 700px, 900px, 1440px (s, m, l, xl) 700/16 900/16 1440/16
 
 $breakpoints-up: (
@@ -7,8 +7,21 @@ $breakpoints-up: (
   "xlarge": 90em,
 );
 
+// 699.98px, 899.98px, 1439.98px
+$breakpoints-down: (
+  "small": 43.7485em,
+  "medium": 56.24875em,
+  "large": 89.99875em,
+);
+
 @mixin breakpoint($size) {
   @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
     @content;
   }
 }
