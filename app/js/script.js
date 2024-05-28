@@ -1,1 +1,1 @@
-console.log("Testing js file");
+console.log("Enjoy this boilerplate 🏄‍♀️");
