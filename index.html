@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>TheSociety</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,44 +14,28 @@
     <script src="/app/js/script.js"></script>
   </head>
   <body class="light">
-    <!-- Header & Navigation -->
-    <header>
-      <div class="header__left">
-        <div class="company__title">TheSociety</div>
-        <nav>
-          <ul>
-            <li>about us</li>
-            <li>our products</li>
-            <li>new items</li>
-            <li>contacts</li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="header__right">
-        <form action="">Search</form>
-        <div class="heart">heart icon</div>
-        <div class="cart">cart icon</div>
-      </div>
-    </header>
-    <!-- End Header & Navigation -->
-
-    <!-- Main -->
-    <main>
-      <h1>TheSociety</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia
-        consequuntur dicta qui ullam reprehenderit molestias aliquid a, aperiam
-        tempore dolore commodi minima repudiandae vitae quo voluptate
-        consectetur laudantium laboriosam.
-      </p>
-    </main>
-    <aside><h2>More Info</h2></aside>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-      perferendis, at et aliquam possimus quasi dicta, libero impedit eligendi
-      quas, assumenda incidunt. Nesciunt mollitia delectus vel laborum
-      repellendus dolorem necessitatibus.
-    </p>
+    <!-- `header` block -->
+    <div class="grid">
+      <!-- Nested `main` block -->
+      <main class="grid__main">
+        <h1>TheSociety</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia
+          consequuntur dicta qui ullam reprehenderit molestias aliquid a,
+          aperiam tempore dolore commodi minima repudiandae vitae quo voluptate
+          consectetur laudantium laboriosam.
+        </p>
+      </main>
+      <!-- Nested `aside` block -->
+      <aside class="grid__sidebar">
+        <h2>More Info</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+          perferendis, at et aliquam possimus quasi dicta, libero impedit
+          eligendi quas, assumenda incidunt. Nesciunt mollitia delectus vel
+          laborum repellendus dolorem necessitatibus.
+        </p>
+      </aside>
+    </div>
   </body>
 </html>
