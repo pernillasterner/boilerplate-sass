@@ -1,3 +1,5 @@
+@use "../util/" as u;
+
 h1,
 h2,
 h3 {
@@ -6,7 +8,22 @@ h3 {
   margin-top: 0;
 }
 
+h1 {
+  // this is for mobile so 375 / 28px
+  // not smaller then 28px, preferred value ideal font size, max value
+  font-size: clamp(28px, 16px + 2vw, 40px);
+}
+
+h2 {
+  font-size: clamp(18px, 16px + 2vw, 26px);
+}
+
+h3 {
+  font-size: clamp(14px, 16px + 2vw, 20px);
+}
+
 p {
+  font-size: clamp(16px, 16px + 2vw, 20px);
   margin-top: 0;
 }
 
