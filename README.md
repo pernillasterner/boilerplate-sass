@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This project demonstrates how to set up a basic Sass structure. It includes a simple HTML file and organized Sass files to streamline CSS development. The primary goal is to showcase a well-structured workflow for managing styles using Sass.
+This project demonstrates how to set up a basic Sass structure. It includes a simple HTML file and organized Sass files to streamline CSS development. The primary goal is to showcase a well-structured workflow for managing styles using Sass and grid layout.
 
 ## File Structure
 
@@ -25,6 +25,7 @@ project-root/
 |       ├── util/
 |       |   ├── _breakpoints.scss
 │       │   ├── _fonts.scss
+|       |   ├── _functions.scss
 │       │   ├── _index.scss
 │       └── style.scss
 │
