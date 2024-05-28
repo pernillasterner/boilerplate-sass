@@ -11,19 +11,15 @@ h3 {
 h1 {
   // this is for mobile so 375 / 28px
   // not smaller then 28px, preferred value ideal font size, max value
-  font-size: clamp(28px, 16px + 2vw, 40px);
+  font-size: clamp(u.rem(28), u.rem(16) + 2vw, u.rem(40));
 }
 
 h2 {
-  font-size: clamp(18px, 16px + 2vw, 26px);
-}
-
-h3 {
-  font-size: clamp(14px, 16px + 2vw, 20px);
+  font-size: clamp(u.rem(22), u.rem(14) + 1.5vw, u.rem(36));
 }
 
 p {
-  font-size: clamp(16px, 16px + 2vw, 20px);
+  font-size: u.rem(16);
   margin-top: 0;
 }
 
