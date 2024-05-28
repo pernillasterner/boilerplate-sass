@@ -1,13 +1,22 @@
 // The root takes priority
 :root {
-  --background-color: hsl(0, 0%, 11%);
+  --body__bg-color: hsl(21, 50%, 92%);
+  --main__bg-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 100%);
+
+  --clr-almond: hsl(28, 61%, 67%);
+  --clr-sand: hsl(26, 40%, 69%);
+  --clr-candyPink: hsl(321, 51%, 80%);
 }
 
-.magenta {
-  background-color: hsl(300, 100%, 50%);
+.almond {
+  background-color: var(--clr-almond);
 }
 
-.green {
-  background-color: hsl(120, 100%, 19%);
+.sand {
+  background-color: var(--clr-sand);
+}
+
+.candyPink {
+  background-color: var(--clr-candyPink);
 }

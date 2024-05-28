@@ -2,6 +2,7 @@
 
 // mobile first
 .grid {
+  background-color: var(--main__bg-color);
   display: grid;
   // grid template for 2 columns and 1 row
   grid-template-columns: 1fr; // in the template grid we want 1 col. fr unit
@@ -24,14 +25,14 @@
   }
 
   &__main {
-    background-color: hsl(240, 100%, 50%);
+    background-color: var(--clr-candyPink);
 
     @include u.breakpoint(medium) {
-      background-color: hsl(120, 100%, 25%);
+      background-color: var(--clr-almond);
     }
 
     @include u.breakpoint(large) {
-      background-color: hsl(39, 100%, 50%);
+      background-color: var(--clr-sand);
     }
   }
 
