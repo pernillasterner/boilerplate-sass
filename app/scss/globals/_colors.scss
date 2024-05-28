@@ -4,22 +4,10 @@
   --text-color: hsl(0, 0%, 100%);
 }
 
-$clr-almond: #f5e8e1;
-$white: #fff;
-$black: #000;
+.magenta {
+  background-color: hsl(300, 100%, 50%);
+}
 
-$bg-body: $clr-almond;
-$bg-main: $white;
-$bg-header: $white;
-$text-color: $black;
-
-$accent-color: #ff652f;
-
-$font-weights: (
-  "regular": 400,
-  "medium": 500,
-  "bold": 700,
-);
-$mobile: 800px;
-
-$max-width: 1400px;
+.green {
+  background-color: hsl(120, 100%, 19%);
+}

@@ -1,10 +1,5 @@
 @use "../util" as u;
 
-// placeholder
-%widget {
-  padding: u.rem(16);
-}
-
 // mobile first
 .grid {
   display: grid;
@@ -52,15 +47,7 @@
 
   // HIGHLIGHT -> extend. interpolation
   &__widget {
+    padding: u.rem(16);
     // modifier
-    &--magenta {
-      @extend %widget;
-      background-color: hsl(300, 100%, 50%);
-    }
-
-    &--green {
-      @extend %widget;
-      background-color: hsl(120, 100%, 19%);
-    }
   }
 }
